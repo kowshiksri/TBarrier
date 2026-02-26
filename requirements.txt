@@ -1,25 +1,20 @@
-# This file may be used to create an environment using:
-# $ conda create --name <env> --file <this file>
-# platform: win-64
-  - ipython=7.20 # a powerful Python shell
-  - ipywidgets=7.6 # optionally used for tqdm in Jupyter
-  - joblib=0.14 # used for parallel computing
-  - jupyter=1.0 # to edit and run Jupyter notebooks
-  - matplotlib=3.3 # beautiful plots. See tutorial tools_matplotlib.ipynb
-  - numpy=1.19 # Powerful n-dimensional arrays and numerical computing tools
-  - pillow=8.1 # image manipulation library, (used by matplotlib.image.imread)
-  - pip # Python's package-management system
-  - python=3.7 # Python! Not using latest version as some libs lack support
-  - scipy=1.6 # scientific/technical computing library
-  - tqdm=4.56 # a progress bar library
-  - wheel # built-package format for pip
-  - widgetsnbextension=3.5 # interactive HTML widgets for Jupyter notebooks
-  - shapely=1.8.0 # working with geometrical objects such as Polygons
-  - numba=0.54.1 # library for fast computing
-  - ipynb==0.5.1 # library for jupyter
-  - mat73==0.55 # library for importing large mat files
-  - sdeint==0.2.2 # library for stochastic differential equations
-  - plotly==5.6.0 # library for plotly
-  - great-circle-calculator==1.2.0
-  - jupyter_contrib_nbextensions==0.5.1
-  - scikit-image
+# This file is in pip requirements format.
+ipython # a powerful Python shell
+ipywidgets # optionally used for tqdm in Jupyter
+joblib # used for parallel computing
+jupyter # to edit and run Jupyter notebooks
+# matplotlib # beautiful plots. See tutorial tools_matplotlib.ipynb
+numpy # Powerful n-dimensional arrays and numerical computing tools
+pillow # image manipulation library, (used by matplotlib.image.imread)
+scipy # scientific/technical computing library
+tqdm # a progress bar library
+widgetsnbextension # interactive HTML widgets for Jupyter notebooks
+shapely # working with geometrical objects such as Polygons
+numba # library for fast computing
+ipynb # library for jupyter
+mat73 # library for importing large mat files
+sdeint # library for stochastic differential equations
+plotly # library for plotly
+great-circle-calculator
+jupyter_contrib_nbextensions
+scikit-image
